@@ -18,7 +18,6 @@
 
 <body>
 
-    <!-- Formatirano -->
     <div class="website_header">
 
         <div class="container fixed-top " style="text-align: -webkit-center; ">
@@ -28,7 +27,11 @@
 
                         <a class="navbar-brand" 
                             href="#">
-                            Coach
+                            
+                            <img class="picture img-fluid w-100" 
+                            src="images\logo.svg"  
+                            alt="...">
+
                         </a>
 
                         <button class="navbar-toggler" 
@@ -124,11 +127,11 @@
             </div>
         </div>
 
-        <div class="container-fluid pt-5 pb-5" style="text-align: -webkit-center; ">
+        <div class="container-fluid pt-5 pb-5">
             <div class="row start_row  text-center pt-5 pb-5">
                 <div class="pt-5 pb-5">
 
-                    <h1 class="pb-2 pt-5">
+                    <h1 class="pb-2 pt-5 w-50">
                         Become the hero of your own story
                     </h1>
 
@@ -157,7 +160,6 @@
 
     </div>
 
-    <!-- Formatirano -->
     <div class="container pt-5 introduction">
 
         <div class="row justify-content-center pt-5 pb-5">
@@ -290,7 +292,6 @@
 
     </div>
 
-    <!-- Formatirano -->
     <div class="courses pt-5 pb-5">
         <div class="container">
             <div class="row pt-5 pb-5">
@@ -384,7 +385,6 @@
         </div>
     </div>
 
-    <!-- Formatirano -->
     <div class="container pt-5 cards_and_descriptions">
 
         <div class="row justify-content-center pt-5 pb-5 d-block description">
@@ -497,7 +497,6 @@
 
     </div>
 
-    <!-- Formatirano -->
     <div class="container-fluid picutre_group">
         <div class="row">
 
@@ -560,7 +559,6 @@
         </div>
     </div>
 
-    <!-- Formatirano -->
     <div class="companies_logos pb-5">
         <div class="container pb-5">
 
@@ -595,13 +593,13 @@
                     <div class="w-100 d-block">
 
                         <label class="visually-hidden"
-                               for="inputPassword2" >
+                               for="email" >
                                Email
                         </label>
 
                         <input class="form-control"
-                               type="password"  
-                               id="inputPassword2" 
+                               type="email"  
+                               id="inputEmail" 
                                placeholder="Email">
 
                     </div>
@@ -609,19 +607,41 @@
                     <div class="w-100 d-block">
 
                         <label class="visually-hidden"
-                            for="inputPassword2" >
-                            Email
+                            for="inputSelect" >
+                            Select
                         </label>
 
-                        <input class="form-control"
-                               type="password"  
-                               id="inputPassword2" 
-                               placeholder="Email">
+                        
+                        <select name="selectList"
+                                id="selectList">
+
+                            <option selected value="selectWorkshop">
+                                Select Workshop
+                            </option>
+
+                            <option value="businessCoaching">
+                                Business Coaching
+                            </option>
+
+                            <option value="relationship">
+                                Relationship
+                            </option>
+
+                            <option value="lifecoaching">
+                                Lifecoaching
+                            </option>
+
+                          </select>
 
                     </div>
 
                     <div class="">
-                        <button type="submit" class="btn mb-3 w-100">Book Now</button>
+
+                        <button class="btn mb-3 w-100"
+                                type="submit" >
+                                Book Now
+                        </button>
+
                     </div>
 
                     <br />
@@ -749,10 +769,9 @@
         </div>
     </div>
 
-
-    <div class="footer pt-5" style="background-color: #261f44">
+    <div class="footer pt-5">
         <div class="container">
-            <div class="row pt-5" style="background-color: #261f44; color: white; text-align: left;">
+            <div class="row pt-5 footer_body">
 
                 <div class="row pb-5">
 
@@ -762,81 +781,268 @@
                             About
                         </h4>
 
-                        <ul style="list-style-type: none; display: contents; ">
+                        <ul>
 
                             <li>
+
                                 <a class="text-decoration-none"
                                     href="#" >
                                     Meet Coach
                                 </a>
+
                             </li>
 
-                            <li><a href="#" class="text-decoration-none">Press</a></li>
+                            <li>
 
-                            <li><a href="#" class="text-decoration-none">Social Feed</a></li>
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Press
+                                </a>
 
-                            <li><a href="#" class="text-decoration-none">Help</a></li>
+                            </li>
 
-                            <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+                            <li>
+
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Social Feed
+                                </a>
+
+                            </li>
+
+                            <li>
+
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Help
+                                </a>
+
+                            </li>
+
+                            <li>
+                                
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Contact Us
+                                </a>
+                            
+                            </li>
 
                         </ul>
+
                     </div>
 
                     <div class="col-2">
-                        <h4 class="pb-3">Blog</h4>
-                        <ul style="list-style-type: none; display: contents;">
-                            <li><a href="#" class="text-decoration-none">Business Coaching</a></li>
-                            <li><a href="#" class="text-decoration-none">Relationship</a></li>
-                            <li><a href="#" class="text-decoration-none">Leadership</a></li>
-                            <li><a href="#nedimKing" class="text-decoration-none">Life Coaching</a></li>
-                            <li><a href="#" class="text-decoration-none">Time Management</a></li>
+
+                        <h4 class="pb-3">
+                            Blog
+                        </h4>
+
+                        <ul>
+
+                            <li>
+
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Business Coaching
+                                </a>
+
+                            </li>
+
+                            <li>
+                                
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Relationship
+                                </a>
+
+                            </li>
+
+                            <li>
+                                
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Leadership
+                                </a>
+                            
+                            </li>
+
+                            <li>
+                                
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Life Coaching
+                                </a>
+                            
+                            </li>
+
+                            <li>
+                                
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Time Management
+                                </a>
+                            
+                            </li>
+
                         </ul>
+
                     </div>
 
                     <div class="col-2">
-                        <h4 class="pb-3">Resources</h4>
-                        <ul style="list-style-type: none; display: contents;">
-                            <li><a href="#" class="text-decoration-none">Online Courses</a></li>
-                            <li><a href="#" class="text-decoration-none">Books Meditation</a></li>
-                            <li><a href="#" class="text-decoration-none">Podcast</a></li>
-                            <li><a href="#" class="text-decoration-none">Albums</a></li>
-                            <li><a href="#" class="text-decoration-none">Download App</a></li>
+
+                        <h4 class="pb-3">
+                            Resources
+                        </h4>
+
+                        <ul>
+
+                            <li>
+                                
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Online Courses
+                                </a>
+
+                            </li>
+
+                            <li>
+                                
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Books Meditation
+                                </a>
+                            
+                            </li>
+
+                            <li>
+                                
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Podcast
+                                </a>
+                            
+                            </li>
+
+                            <li>
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Albums
+                                </a>
+                            
+                            </li>
+
+                            <li>
+                                
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Download App
+                                </a>
+                            
+                            </li>
+
                         </ul>
+
                     </div>
+
                     <div class="col-2">
-                        <h4 class="pb-3">Follow Me</h4>
-                        <ul style="list-style-type: none; display: contents;">
-                            <li><a href="#" class="text-decoration-none">Instagram</a></li>
-                            <li><a href="#" class="text-decoration-none">Facebook</a></li>
-                            <li><a href="#" class="text-decoration-none">LinkedIn</a></li>
-                            <li><a href="#" class="text-decoration-none">YouTube</a></li>
-                            <li><a href="#" class="text-decoration-none">Twitter</a></li>
+
+                        <h4 class="pb-3">
+                            Follow Me
+                        </h4>
+
+                        <ul>
+
+                            <li>
+                                
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Instagram
+                                </a>
+                            
+                            </li>
+
+                            <li>
+                                
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Facebook
+                                </a>
+                            
+                            </li>
+
+                            <li>
+
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    LinkedIn
+                                </a>
+                            
+                            </li>
+
+                            <li>
+
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    YouTube
+                                </a>
+                            
+                            </li>
+
+                            <li>
+                                
+                                <a class="text-decoration-none"
+                                    href="#" >
+                                    Twitter
+                                </a>
+                            
+                            </li>
+
                         </ul>
+
                     </div>
-                    <form class="col-4"
-                    method="POST"
-                            submit="funkcija()">
-                        <h4 class="pb-3">Subscribe to our newsletter</h4>
-                        <span class="pb-3" style="display: block; width: 300px; color: dimgray;">Subscribe to get
-                            notified daily new motivational & inspiration tips.</span>
+
+                    <form class="col-4 footer_form">
+
+                        <h4 class="pb-3">
+                            Subscribe to our newsletter
+                        </h4>
+
+                        <span class="pb-3">
+                            Subscribe to get notified daily new motivational & inspiration tips.
+                        </span>
+
                         <input class=" w-100 h-25 form-control d-block"
-                         type="email" 
-                         id="inputName"
+                            type="email" 
+                            id="inputName"
                             placeholder="Email Address"
                             required="required">
+
                         <br />
-                        <button class="btn" type="submit"
-                            style="color: white; font-weight: bold;  background-color: #ff5938; height: 50px; width: 100px;" >Subscribe</button>
+
+                        <button class="btn" 
+                            type="submit">
+                            Subscribe
+                        </button>
+
                     </form>
+
                 </div>
 
-                <div class="row pt-5 pb-4" style="display: block; color: dimgray;">
-                    <span>© 2020 Coach, Inc.</span>
-                    <span>Privacy Policy</span>
-                    <span>Terms</span>
-                    <p id="demo">
+                <div class="row pt-5 pb-4 footer_bottom">
 
-                    </p>
+                    <span>
+                        © 2020 Coach, Inc.
+                    </span>
+
+                    <span>
+                        Privacy Policy
+                    </span>
+
+                    <span>
+                        Terms
+                    </span>
+
                 </div>
 
             </div>
