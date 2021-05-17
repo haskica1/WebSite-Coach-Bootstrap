@@ -1,27 +1,7 @@
 ﻿
-.footer a{
-    color: dimgray !important;
-}
-
-.footer a:hover{
-    color: white !important;
-}
-
-.description h2{
-    font-size: 50px;
-    width: 40%;
-} 
-
-.description span {
-    color: dimgray;
-    font-size: 20px;
-    width: 40%;
-}
-
-.introduction span{
-    color: dimgray;
-    text-align: left;
-}
+/* 
+    CSS ZA BOOKS PODCAST ID...
+*/
 
 .courses{
     background-color: #ff5938;
@@ -43,21 +23,34 @@
     align-self: center;
 }
 
-.courses .picture_button{
-    align-items: center;
-    overflow: hidden;
+.button_picture{
+    overflow: hidden !important;
 }
 
-.courses button {
-    color:white;
-    border: solid 1px white;
-    font-weight: bold;
+.picture{
+    transition: transform .5s;
+}
+
+.button_picture:hover img{
+    transform: scale(1.1);
+}
+
+.product_button{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.button_description{
+    color:white !important;
+    border: solid 1px white !important;
+    font-weight: bold !important;
     width: 100px;
     height: 50px;
 }
 
-.picture_button:hover button {
-    color:black;
+.button_description:hover{
+    color:black !important;
     border: solid 1px white;
     background-color: white;
     font-weight: bold;
@@ -65,22 +58,59 @@
     height: 50px;
 }
 
-.picture_button:hover img {
-    transform: scale(1.1);
+/*
+     CSS ZA KARTICE I NASLOV IZNAD NJIH
+*/
+
+.cards_and_descriptions{
+    text-align: -webkit-center;
 }
 
-.kartica{
+.description_title {
+    font-size: 50px;
+    width: 40% !important;
+} 
+
+.description_text {
+    color: dimgray;
+    font-size: 20px;
+    width: 50% !important;
+}
+
+.card_description {
     width: 18rem;
     background-color: white;
-    top: -100px;
+    transform: translate(0,-50%);
 }
 
-.red_kartica{
+.card_picture{
     overflow: hidden;
 }
 
-.red_kartica img:hover{
+.card_picture:hover img {
     transform: scale(1.1);
+}
+
+.card_link{
+    color: #ff5938;
+}
+
+/*
+    CSS ZA GRUPU SLIKA
+*/
+
+.picutre_group {
+    padding-right: 30px; 
+    padding-left: 30px;
+}
+
+/*
+    CSS ZA FORMU I LOGO ZNAKOVE
+*/
+
+.companies_logos {
+    background-color: #f4f4f5 !important;
+    text-align: -webkit-center;
 }
 
 .form_book{
@@ -107,6 +137,15 @@
     color: white;
 }
 
+.form_book button:hover {
+    background-color: red ;
+    color: white;
+}
+
+/*
+    CSS ZA DESCRIPTION AND INTRUDACTION
+*/
+
 .row_following p {
     color: dimgray;
     font-size: 12px;
@@ -128,6 +167,48 @@
 .row_following h1{
     font-size: 40px;
     width: 40%;
+}
+
+.following-text {
+    color: dimgray;
+    text-align: -webkit-center !important; 
+}
+
+.introduction-text{
+    color: dimgray;
+    text-align: -webkit-center !important; 
+    font-size: x-large;
+}
+
+.introduction-title{
+    font-size: 50px;
+}
+
+.introduction span{
+    color: dimgray;
+    text-align: left;
+}
+
+.introduction{
+    text-align: -webkit-center; 
+}
+
+/*
+    CSS ZA HEADER
+*/
+
+.website_header{
+    background-image: url("images/hero-slide.jpeg");
+    background-size: cover;
+}
+
+
+.footer a{
+    color: dimgray !important;
+}
+
+.footer a:hover{
+    color: white !important;
 }
 
 .start_row button{
