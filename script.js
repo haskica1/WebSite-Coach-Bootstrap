@@ -11,6 +11,6 @@ function myFunction() {
 
 function loadingPage(){
   
-    alert("Stranica se ucitava!!");
+    alert("Website is loading. This website is clone https://codescandy.com/coach/index.html.");
     document.getElementsByTagName("body")[0].style.display="block";
 }
