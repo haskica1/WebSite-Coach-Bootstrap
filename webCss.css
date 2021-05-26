@@ -47,6 +47,8 @@
     font-weight: bold !important;
     width: 100px;
     height: 50px;
+    align-content: center !important;
+    display: inline-grid !important;
 }
 
 .button_description:hover{
@@ -211,16 +213,17 @@
     color: white !important;
 }
 
-.start_row button{
-    color: white; 
-    font: bold; 
-    background-color: #ff5938; 
-    height: 50px; 
-    width: 150px;
-    font-weight: bold;
+.slider_button{
+    color: white !important; 
+    background-color: #ff5938 !important; 
+    height: 50px;;
+    width: 120px;
+    font-weight: bold !important;
+    align-content: center !important;
+    display: inline-grid !important;
 }
 
-.start_row button:hover{
+.slider_button:hover{
     background-color: red;
     color: white;
 }
@@ -233,6 +236,7 @@
 .start_row h1{
     color: white;
     font-size: 70px;
+    transform: translate(50%,0);
 }
 
 .start_row{
@@ -240,12 +244,12 @@
     align-items: center;
 }
 
-.header_list li a {
+.header_list_items {
     color: white !important;
     font-weight: bold;
 }
 
-.header_buttom button {
+.dugme_sing_up {
     background-color: #ff5938 !important; 
     width: 100px;
     transform: scale(0.8);
@@ -253,7 +257,7 @@
     color: white !important;
 }
 
-.header_buttom button:hover {
+.dugme_sing_up:hover {
     background-color: red !important; 
     width: 100px;
     transform: scale(0.8);
@@ -269,3 +273,109 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/*
+    CSS ZA FOOTER
+*/
+
+.footer{
+    background-color: #261f44
+}
+
+.footer_body{
+    background-color: #261f44; 
+    color: white; 
+    text-align: left;
+}
+
+.footer_body ul{
+    list-style-type: none; 
+    display: contents; 
+}
+
+.footer_form span{
+    display: block; 
+    width: 300px; 
+    color: dimgray;
+}
+
+.footer_form button {
+    color: white; 
+    font-weight: bold;  
+    background-color: #ff5938; 
+    height: 50px; 
+    width: 100px;
+}
+
+
+.footer_form button:hover {
+    color: white; 
+    background-color: red;
+}
+
+.footer_bottom{
+    display: inline-block !important; 
+    color: dimgray;
+}
+
+
+/*
+    CSS ZA DROPDOWN-E
+*/
+
+.dropdownitem_header{
+    font-size: medium;
+    font-weight: bold !important;
+    color: black !important;
+}
+.dropdownitem_header_description{
+    color: gray !important;
+    font-size: small;
+    font-weight: normal !important;
+}
+
+.dropdownitem_header_classic{
+    font-weight: normal !important;
+    color: black !important;
+    font-size: medium;
+}
+
+.dropdownitem_header_description_version{
+    font-size: medium;
+    font-weight: bold !important;
+    color: orange !important;
+}
+
+.utilities_terms{
+    font-size: small;
+    color: orange !important;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    right: 100%;
+    margin-top:-6px;
+}
+
+
+/*
+    CSS ZA JAVASCRIPT
+*/
+
+body{
+    display: block;
+    height: 1500px;
+}
+
+.change_color{
+    background-color: #261f44 !important;
+}
+
+
+
